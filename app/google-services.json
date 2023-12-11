@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "483241607089",
-    "firebase_url": "https://wazito-ecommerce-default-rtdb.firebaseio.com",
-    "project_id": "wazito-ecommerce",
-    "storage_bucket": "wazito-ecommerce.appspot.com"
+    "project_number": "1067858492314",
+    "project_id": "food-eatery-40838",
+    "storage_bucket": "food-eatery-40838.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:483241607089:android:0376d8a181cc5c884b0790",
+        "mobilesdk_app_id": "1:1067858492314:android:0348babdef9aa6576ad823",
         "android_client_info": {
           "package_name": "com.example.wazitoecommerce"
         }
@@ -16,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA6_pqa6P574RhG2_Gecf8HNoEJ9chlnKM"
+          "current_key": "AIzaSyBKHc8zacNbHZDHzZI9jEOqQc7XRZKMkpc"
         }
       ],
       "services": {
