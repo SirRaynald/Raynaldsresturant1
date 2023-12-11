@@ -45,7 +45,7 @@ fun AddProductsScreen(navController:NavHostController){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Add Products",
+            text = "Add Food To Menu",
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Cursive
@@ -61,7 +61,7 @@ fun AddProductsScreen(navController:NavHostController){
         OutlinedTextField(
             value = productName,
             onValueChange = { productName = it },
-            label = { Text(text = "Product name *") },
+            label = { Text(text = "Food name *") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
         )
 
@@ -70,7 +70,7 @@ fun AddProductsScreen(navController:NavHostController){
         OutlinedTextField(
             value = productQuantity,
             onValueChange = { productQuantity = it },
-            label = { Text(text = "Product quantity *") },
+            label = { Text(text = "Portion size *") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
         )
 
@@ -79,7 +79,7 @@ fun AddProductsScreen(navController:NavHostController){
         OutlinedTextField(
             value = productPrice,
             onValueChange = { productPrice = it },
-            label = { Text(text = "Product price *") },
+            label = { Text(text = "Food price *") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
         )
 

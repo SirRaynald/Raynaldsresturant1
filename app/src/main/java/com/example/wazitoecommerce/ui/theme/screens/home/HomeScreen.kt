@@ -27,7 +27,7 @@ fun HomeScreen(navController:NavHostController){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Wazito eCommerce",
+            text = "Food Eatery",
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Cursive
@@ -36,13 +36,13 @@ fun HomeScreen(navController:NavHostController){
         Button(onClick = {
             navController.navigate(ADD_PRODUCTS_URL)
         }) {
-            Text(text = "Add Products")
+            Text(text = "Add Foods")
         }
         Spacer(modifier = Modifier.height(30.dp))
         Button(onClick = {
             navController.navigate(VIEW_PRODUCTS_URL)
         }) {
-            Text(text = "View Products")
+            Text(text = "View Menu")
         }
     }
 }
